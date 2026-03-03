@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    run: pwd && ls -ltrh
     runs-on: ubuntu-22.04
     steps:
       - run:  go version
+      - run: pwd && ls -ltrh
