@@ -1,0 +1,12 @@
+name: upper Build
+
+on:
+  push:
+    - paths: ".github/workflow/upper-build.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - run:  go version
