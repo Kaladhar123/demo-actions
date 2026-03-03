@@ -2,7 +2,8 @@ name: upper Build
 
 on:
   push:
-    - paths: ".github/workflow/upper-build.yml"
+    paths: 
+     - ".github/workflow/upper-build.yml"
   workflow_dispatch:
 
 jobs:
