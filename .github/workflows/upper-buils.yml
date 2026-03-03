@@ -4,7 +4,7 @@ on:
   push:
     paths: 
       - ".github/workflow/upper-buils.yml"
-  workflow_dispatch:
+  #workflow_dispatch:
 
 jobs:
   build:
